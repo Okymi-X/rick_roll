@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Téléchargement Gratuit | Fichiers Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Téléchargement gratuit de fichiers premium. Films, musique, logiciels et plus encore!">
+</head>
+<body>
+    <div id="fake-page" class="fake-container">
+        <header class="fake-header">
+            <h1>TÉLÉCHARGEMENTS PREMIUM GRATUITS</h1>
+            <p class="fake-subtitle">Films | Musique | Logiciels | Jeux</p>
+        </header>
+        
+        <main class="fake-main">
+            <div class="fake-notification">
+                <p> <strong>Offre limitée!</strong> Accès premium gratuit pendant 24h. <span class="countdown">11:58:32</span> restant</p>
+            </div>
+            
+            <div class="fake-offer">
+                <h2>Offre Spéciale du Jour</h2>
+                <div class="offer-list">
+                    <div class="offer-item">
+                        <div class="offer-icon"></div>
+                        <h3>Films HD</h3>
+                        <p>Les derniers blockbusters en HD</p>
+                        <button class="fake-button" data-troll="true">Télécharger</button>
+                    </div>
+                    <div class="offer-item">
+                        <div class="offer-icon"></div>
+                        <h3>Jeux AAA</h3>
+                        <p>Les meilleurs jeux sans restrictions</p>
+                        <button class="fake-button" data-troll="true">Télécharger</button>
+                    </div>
+                    <div class="offer-item">
+                        <div class="offer-icon"></div>
+                        <h3>Logiciels Pro</h3>
+                        <p>Tous les logiciels premium gratuits</p>
+                        <button class="fake-button" data-troll="true">Télécharger</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fake-popular">
+                <h2>Téléchargements Populaires</h2>
+                <div class="popular-list">
+                    <div class="popular-item" data-troll="true">
+                        <div class="popular-name">Windows 11 Pro <span class="popular-badge">HOT</span></div>
+                        <div class="popular-downloads">249K+</div>
+                    </div>
+                    <div class="popular-item" data-troll="true">
+                        <div class="popular-name">Photoshop 2023 <span class="popular-badge">PRO</span></div>
+                        <div class="popular-downloads">187K+</div>
+                    </div>
+                    <div class="popular-item" data-troll="true">
+                        <div class="popular-name">Fast &amp; Furious 10 <span class="popular-badge">4K</span></div>
+                        <div class="popular-downloads">302K+</div>
+                    </div>
+                    <div class="popular-item" data-troll="true">
+                        <div class="popular-name">Office 365 <span class="popular-badge">PREMIUM</span></div>
+                        <div class="popular-downloads">421K+</div>
+                    </div>
+                </div>
+                <div class="main-download">
+                    <button id="main-download-button" class="big-download-button" data-troll="true">TÉLÉCHARGER MAINTENANT</button>
+                    <p class="download-notice">Accès instantané à tous les fichiers premium</p>
+                </div>
+            </div>
+        </main>
+        
+        <div class="fake-testimonials">
+            <h2>Ce que disent nos utilisateurs</h2>
+            <div class="testimonial-list">
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"Le meilleur site de téléchargement! Tous les fichiers fonctionnent parfaitement."</p>
+                    <div class="testimonial-author">- Sophie T.</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"J'ai économisé des centaines d'euros grâce à ce site incroyable!"</p>
+                    <div class="testimonial-author">- Michel D.</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"Service incroyable et tout est vraiment gratuit. Je le recommande vivement!"</p>
+                    <div class="testimonial-author">- Laura B.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fake-users-online">
+            <div class="users-count"><span id="online-count">1,387</span> utilisateurs en ligne</div>
+            <div class="server-status">Serveurs: <span class="status-ok">Opérationnels</span></div>
+        </div>
+    </div>
+
+    <!-- Page Rick Roll (initialement cachée) -->
+    <div id="rickroll-page" class="container hidden">
+        <div class="video-container">
+            <!-- Vidéo principale YouTube -->
+            <div id="youtube-container">
+                <iframe id="main-video" width="560" height="315" 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=7Hp8roBRjK6qrmbL&autoplay=1&mute=0&controls=1&loop=1&rel=0&enablejsapi=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+                <button id="unmute-button" class="video-control-btn hidden">🔊 Activer le son</button>
+            </div>
+            
+            <!-- Vidéo de secours (cachée par défaut) -->
+            <div id="backup-video" class="hidden">
+                <video id="local-video" width="100%" height="100%" controls autoplay loop>
+                    <source src="https://ia800605.us.archive.org/11/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos.
+                </video>
+                <button id="unmute-backup-button" class="video-control-btn hidden">🔊 Activer le son</button>
+            </div>
+        </div>
+        
+        <!-- Bouton pour changer de source vidéo si une ne fonctionne pas -->
+        <button id="switch-video" class="btn btn-secondary">
+            <span class="emoji">🔄</span> Problème de vidéo? Changer de source
+        </button>
+        
+        <div class="content">
+            <h1 class="title rainbow-text">VOUS VENEZ D'ÊTRE RICK ROLLÉ!</h1>
+            <p class="subtitle">Never Gonna Give You Up, Never Gonna Let You Down...</p>
+            <p class="troll-message">Il n'y a pas de téléchargements gratuits ici, juste Rick Astley 😎</p>
+            <div class="button-group">
+                <button id="share-button" class="btn">Partager avec vos amis</button>
+                <button id="troll-again" class="btn btn-secondary">Troller quelqu'un d'autre</button>
+                <button id="switch-video-alt" class="btn btn-tertiary">Changer de vidéo</button>
+            </div>
+            <div class="counter-container">
+                <p>Vous avez été la <span id="victim-counter">38,271</span><sup>ème</sup> victime!</p>
+            </div>
+        </div>
+        
+        <div id="troll-popups"></div>
+    </div>
+    
+    <div id="no-escape-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Attendez!</h2>
+            <p>Êtes-vous sûr de vouloir quitter? Vous allez manquer tout le fun!</p>
+            <div class="modal-buttons">
+                <button id="stay-button" class="btn">Je reste!</button>
+                <button id="leave-button" class="btn btn-secondary move-button">Je pars</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="cookie-consent" class="cookie-banner">
+        <p>Ce site utilise des cookies pour vous offrir la meilleure expérience. En continuant à naviguer, vous acceptez notre utilisation des cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-cookie" data-troll="true">Accepter</button>
+            <button id="reject-cookies" class="btn-cookie btn-cookie-secondary" data-troll="true">Rejeter</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; <span id="year"></span> Rick Roll Extraordinaire | <a href="#" data-troll="true">Politique de confidentialité</a> | <a href="#" data-troll="true">Conditions d'utilisation</a></p>
+    </footer>
+    
+    <!-- Sons -->
+    <audio id="pop-sound" preload="auto">
+        <source src="https://www.soundjay.com/buttons/sounds/pop-up-2.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="click-sound" preload="auto">
+        <source src="https://www.soundjay.com/button/sounds/button-21.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
